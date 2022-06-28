@@ -25,3 +25,5 @@ const showCoffees = () => {
   )
   container.innerHTML = output
 }
+
+document.addEventListener("DOMContentLoaded", showCoffees)
